@@ -1,0 +1,11 @@
+
+CREATE TABLE Jogo (
+    IdJogo INT IDENTITY PRIMARY KEY,
+    Valor1 INT NOT NULL,
+    Valor2 INT NOT NULL,
+    Valor3 INT NOT NULL,
+    Valor4 INT NOT NULL,
+    Valor5 INT NOT NULL,
+    Valor6 INT NOT NULL,
+    DataJogo DATETIME NOT NULL
+)
